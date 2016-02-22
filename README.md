@@ -5,6 +5,10 @@ Simulates routine of a person and outputs that person's location tagged with tim
 
 do a `git clone`
 
+`cd AISim`
+
+`npm install`
+
 #Usage
 
 `cd AISim`
