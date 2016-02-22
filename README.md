@@ -1,20 +1,21 @@
-# gfsa
-A desktop notification Utility for 'Great Fucking Startup Advice'.
+# AISim
+Simulates routine of a person and outputs that person's location tagged with time.
 
-Every 6 seconds, you will be given some great fucking advice about startups.
-In case you thought going to the fucking site and swiping was fucking boring and hard, this
-app will notify you regularly what you'd miss if you don't go to the fucking site.
+#Install
 
-**Uses 'notify-send', so not for Windows**
+do a `git clone`
 
-# Inspiration
-http://greatfuckingstartupadvice.com/
+#Usage
 
-# Install
-`npm install -g gfsa`
+`cd AISim`
 
-# Run
- Run `gfsa` in terminal
+`node --expose-gc index.js 20 30 57 300 metro 10`
 
-# Screenshot
-![](/demo.png)
+20,30 are x,y coordinates of user's home on a grid of 1000x1000.
+57,300 are x,y coordinates of user's work.
+metro is user's mode of transportation. Possible values:metro,bus,car.
+10 is the traffic level. The more it is, the more traffic user will face. Range:0-10.
+
+#Output
+
+`node --expose-gc index.js 20 30 57 300 metro 10 > op.txt`
