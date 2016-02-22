@@ -1,0 +1,14 @@
+{
+  "name": "aisim",
+  "version": "1.0.0",
+  "description": "AI sim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iostreamer",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
